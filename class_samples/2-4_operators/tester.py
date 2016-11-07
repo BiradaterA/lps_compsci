@@ -1,0 +1,9 @@
+c = 3
+d = 7
+print(c * d)
+print(c - d)
+print(c ** d)
+print(c + d)
+print(c / d)
+print(c // d)
+print(c % d)

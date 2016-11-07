@@ -1,0 +1,12 @@
+c = 5
+d = 4
+print(c % d)
+c = 6
+d = 4
+print(c % d)
+c = 7
+d = 5
+print(c % d)
+c = 8
+d = 4
+print(c % d)
