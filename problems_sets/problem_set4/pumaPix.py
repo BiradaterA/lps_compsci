@@ -1,13 +1,18 @@
 # This is the introduction of the program and tells the user that they will need to put their favorite 5 shows
 print("Welcome to PumaPix!")
 print("Enter your 5 favorite shows: ")
-
+# This line will help make my while loop run
 choice = 0
+# This is my list that I will be using to add all the user's shows altogether
 shows = []
+# This while loop will run as long as my choice is < 5 which I have assigned it to 0
 while choice < 5:
 	print("Enter a show name: ")
+# This will put the user's shows as the variable first
 	first = raw_input()
+# This will add the variable first to the shows list
 	shows.append(first)
+# This will increment choice so that way this loop will only run five times allowing the user to input 5 shows
 	choice = choice + 1
 # This print statement will tell the user what I will be doing next which is showing them their list
 print("Okay, here's what you entered: ")
